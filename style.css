@@ -1,20 +1,23 @@
+body{
+    background-image: url(Images/background.jpeg);
+    margin: 0%;
+    height: 1vh;
+}
 header, footer{
     display: flex;
     flex-direction: column;
     text-align: center;
     color:rgb(159, 203, 242);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
-body{
-    background-image: url(Images/background.jpeg);
-    margin: 0%;
-}
+
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    height: 450px;
 }
 #borderradius{
     height: 400px;
