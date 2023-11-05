@@ -1,24 +1,46 @@
 body{
-    background-image: url(Images/background.jpeg);
-    margin: 0%;
-    height: 1vh;
+    background-image: url(Images/background.jpeg);    
 }
 header, footer{
+    position: relative;
+    top:0px;
     display: flex;
     flex-direction: column;
     text-align: center;
     color:rgb(159, 203, 242);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+@media (max-width: 320px) {
+    body{
+        background-image: url(Images/background.jpeg);       
+    }
+    header, footer{
+        position: relative;
+        top:0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color:rgb(159, 203, 242);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h1, h4 {
+        margin: 2px;
+        padding: 0;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 12px;
+    }
+}
 .container{
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
-    align-items: center;
-    height: 450px;
+   
 }
 #borderradius{
-    height: 400px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,12 +88,12 @@ input{
     top: 45px;
 }
 .copycode{
-    width: 400px;
-    height: 300px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+
 }
 #Lcodigo{
     height: 80px;
@@ -80,5 +102,5 @@ input{
     border: 1px solid;
 }
 button{
-    width: 100px;
+    width: 130px;
 }
