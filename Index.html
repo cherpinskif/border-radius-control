@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Border Radius Project</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="borderradius">
+            <div id="borderadiusdraw"></div>
+            <div>
+                <input type="range" name="" id="topright"  min="0" max="100%" value="1">
+            </div>
+            <div>
+            <input type="range" name="" id="topleft"  min="0%" max="100%" value="0" step="1">
+            </div>   
+            <div>
+                <input type="range" name="" id="bottomright"  min="0%" max="100%" value="0" step="1">
+            </div> 
+            <div>
+                <input type="range" name="" id="bottomleft"  min="0%" max="100%" value="0" step="1">
+            </div>
+        </div>    
+        <div class="copycode">
+            <div id="codigo">
+             <textarea name="" id="Lcodigo" readonly="true" rows="5"></textarea>
+            </div>
+            <button type="submit" id="geracodigo">Generate Code</button>
+            <button type="submit" id="copiacodigo">Copy Code</button>
+            <button type="reset" id="resetcodigo">reset</button>
+        </div>
+    </div>
+
+    
+    
+    
+    <script src="pagina.js"></script>
+</body> 
+</html>
