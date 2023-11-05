@@ -58,5 +58,5 @@ document.getElementById("resetcodigo").onclick = function(){
     topleft.value = 0+`%`;
     bottomright.value = 0+`%`;
     bottomleft.value = 0+`%`;
-    let update = getElementById("borderadiusdraw")
+    Lcodigo.value = "";
  }
